@@ -1,2 +1,0 @@
-# java_app_jenkins_pipeline
-java_app_jenkins_pipeline

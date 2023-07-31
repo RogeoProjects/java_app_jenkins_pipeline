@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seu Aplicativo Spring Boot</title>
+    <!-- Adicionar estilos do Bootstrap -->
+    <link th:href="@{/webjars/bootstrap/5.3.1/css/bootstrap.min.css}" rel="stylesheet" />
+</head>
+<body>
+    <!-- Conteúdo principal -->
+    <div class="container mt-4">
+        <div class="jumbotron">
+            <h1 class="display-4">Bem-vindo ao meu aplicativo Spring Boot com Thymeleaf e Bootstrap</h1>
+            <p class="lead">Este é um exemplo de aplicativo web criado com Spring Boot, Thymeleaf e Bootstrap.</p>
+            <hr class="my-4">
+            <p>Neste aplicativo, você pode:</p>
+            <ul>
+                <li>Visualizar informações e dados importantes.</li>
+                <li>Interagir com formulários e enviar dados para o servidor.</li>
+                <li>Exibir dados dinamicamente com Thymeleaf.</li>
+                <li>Utilizar estilos e layouts atraentes com Bootstrap.</li>
+            </ul>
+            <p>Você pode experimentar e expandir este aplicativo para atender às suas necessidades.</p>
+            <a class="btn btn-primary btn-lg" href="#" role="button">Saiba mais</a>
+        </div>
+    </div>
+    <!-- Adicionar scripts do Bootstrap e do jQuery -->
+    <script th:src="@{/webjars/bootstrap/5.3.1/js/bootstrap.min.js}"></script>
+    <script th:src="@{/webjars/jquery/3.6.0/jquery.min.js}"></script>
+</body>
+</html>
